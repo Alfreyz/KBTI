@@ -15,12 +15,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Login');
 });
-Route::get('/Home', function () {
-    return view('Home');
+Route::get('/HomeMahasiswa', function () {
+    return view('HomeMahasiswa');
+});
+Route::get('/HomeAdmin', function () {
+    return view('HomeAdmin');
 });
 Route::get('/DetailKHS', function () {
     return view('DetailKHS');
 });
 Route::get('/DaftarKegiatan', function () {
     return view('DaftarKegiatan');
+});
+Route::get('/DetailKegiatan', function () {
+    return view('DetailKegiatan');
 });

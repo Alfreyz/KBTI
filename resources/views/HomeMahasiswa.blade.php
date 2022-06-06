@@ -91,7 +91,7 @@
 <body class="hold-transition sidebar-mini">
     <div class="wrapper">
         <nav class="navbar navbar-dark bg-primary">
-            <a class="navbar-brand" href="/Home">Sistem Pendukung Mahasiswa</a>
+            <a class="navbar-brand" href="/HomeMahasiswa">Sistem Pendukung Mahasiswa</a>
             <nav>
                 <a class="navbar-brand" href="/">Logout</a>
             </nav>

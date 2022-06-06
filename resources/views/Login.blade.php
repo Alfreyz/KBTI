@@ -77,15 +77,12 @@
                 </div>
                 <div class="row">
                     <div class="col-8">
-                        <div class="icheck-primary">
-                            <input type="checkbox" id="remember">
-                            <label for="remember">
-                                Remember Me
-                            </label>
-                        </div>
+                        <a href="/HomeAdmin"><button type="submit" class="btn btn-primary btn-block">Login</button></a>
                     </div>
                     <div class="col-4">
-                        <a href="/Home"><button type="submit" class="btn btn-primary btn-block">Sign In</button></a>
+                        <a href="/HomeMahasiswa"><button type="submit" class="btn btn-primary btn-block">Sign
+                                In</button></a>
+
                     </div>
                 </div>
             </div>
