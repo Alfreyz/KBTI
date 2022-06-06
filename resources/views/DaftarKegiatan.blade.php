@@ -76,10 +76,52 @@
                             <li class="breadcrumb-item active">Daftar Kegiatan</li>
                         </ol>
                     </div>
+
                 </div><!-- /.container-fluid -->
+
                 <hr>
         </section>
         <!-- Main content -->
+        <div class="container-fluid">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">ADD +</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Kegiatan Prestasi</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label class="col-form-label">Kegiatan </label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label">Tanggal Perolehan</label>
+                                    <input type="date" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label">Jabatan </label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-form-label">File Bukti Kegiatan</label>
+                                    <input type="file" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="card-body p-0">
             <table class="table table-striped">
                 <thead>
