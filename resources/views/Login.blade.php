@@ -54,7 +54,7 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a><b>Sistem Pendukung Mahasiswa</b></a>
+            <a><b>Sistem SoftSkill Mahasiswa</b></a>
         </div>
         <div class="card">
             <div class="card-body login-card-body">
