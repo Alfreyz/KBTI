@@ -76,13 +76,11 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-8">
-                        <a href="/HomeAdmin"><button type="submit" class="btn btn-primary btn-block">Login</button></a>
-                    </div>
-                    <div class="col-4">
-                        <a href="/HomeMahasiswa"><button type="submit" class="btn btn-primary btn-block">Sign
-                                In</button></a>
-
+                    <div class="col-12">
+                        <a href="/HomeAdmin"><button type="submit" class="btn btn-primary btn-block">Login
+                                Admin</button></a>
+                        <a href="/HomeMahasiswa"><button type="submit" class="btn btn-success btn-block">Login
+                                Mahasiswa</button></a>
                     </div>
                 </div>
             </div>
